@@ -1,0 +1,38 @@
+{
+  "name": "npmrm",
+  "version": "0.0.1",
+  "description": "NPM/YARN registry manager can help you easy and fast switch between different npm registries",
+  "bin": {
+    "npmrm": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wangzherlf/npmrm.git"
+  },
+  "scripts": {
+    "star": "npm star npmrm"
+  },
+  "keywords": [
+    "NPM",
+    "YARN",
+    "registry"
+  ],
+  "author": "wangzherlf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangzherlf/npmrm/issues"
+  },
+  "homepage": "https://github.com/wangzherlf/npmrm",
+  "dependencies": {
+    "async": "^3.2.0",
+    "commander": "^7.1.0",
+    "extend": "^3.0.2",
+    "ini": "^2.0.0",
+    "node-echo": "^0.1.1",
+    "npm": "^7.5.4",
+    "only": "^0.0.2",
+    "open": "^7.4.2",
+    "ora": "^5.3.0",
+    "request": "^2.88.2"
+  }
+}

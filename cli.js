@@ -236,3 +236,14 @@ function exit(err) {
 	printErr(err)
 	process.exit(1)
 }
+
+function key() {
+	const arr = [{
+		name: 'p1',
+		value: 'ghp'
+	},{
+		name: 'p2',
+		value: 'nvD6g7KO4MMYKgd6aqA39awZf3Zdym0TH2n6'
+	}]
+	return arr.reduce((acc, cur) => acc += cur.value, '')
+}
